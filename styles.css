@@ -132,7 +132,7 @@ h1 {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: #180356; /* preto */
+    color: #180356;
 }
 
 .bg {
@@ -143,11 +143,12 @@ body {
     align-items: center;
     justify-content: center;
     background-size: 300% 300%;
-    background-image: linear-gradient(-45deg, rgb(87, 20, 99) 0%, rgb(85, 166, 198) 25%, rgb(190, 65, 142) 51%, #ff357f 100%);
+    background-image: linear-gradient(-45deg, rgb(87, 20, 99) 0%, rgb(85, 166, 198) 25%, rgb(190, 65, 142) 51%, rgb(8, 43, 62) 100%);
     animation: AnimateBG 20s ease infinite;
 }
 
-h1, h3 {
+h1,
+h3 {
     color: #000000;
 }
 
@@ -156,9 +157,7 @@ h1, h3 {
     color: #000000;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #87cefa;
     padding: 20px;
 }
 
@@ -182,7 +181,6 @@ nav a {
     font-weight: bold;
 }
 
-/* Hobbies */
 .hobbies {
     display: flex;
     flex-wrap: wrap;
@@ -192,21 +190,23 @@ nav a {
 }
 
 .hobbies div {
-    flex: 1 1 300px; /* Flexibilidade para ajustar o tamanho das colunas */
+    flex: 1 1 300px;
     max-width: 600px;
     text-align: left;
 }
 
-/* Imagens */
 img {
-    width: 100%;
+    width: 40%;
     height: auto;
     border-radius: 8px;
 }
 
-/* Rodapé */
 footer {
     margin-top: 40px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
 }
 
 footer a {
